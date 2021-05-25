@@ -35,9 +35,10 @@ return (
             <Paper className={classes.form}>
             <Typography variant='h5'>Add Customer</Typography>
             <CustomerForm />
-            </Paper>
+            </Paper>   
         </Grid>
         <Grid item xs={8}>
+            <Box></Box>
             <Paper>
             <CustomerList />
             </Paper>
